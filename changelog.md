@@ -1,5 +1,14 @@
 # Joplin changelog
 
+## 3.0.3
+
+- "Copy Excalidraw drawing as image" no longer kills the plugin when the drawing is larger than
+  about 1 MB -- a drawing with a screenshot or photo in it, typically. The copy did nothing and
+  every Excalidraw menu, the toolbar button and the right-click entries stopped working until
+  Joplin was restarted, because the plugin's background page was wedged for good by
+  `DOMParser.parseFromString()` on a string that Node hands over as an external V8 string. The
+  drawing's size is now read off the opening `<svg>` tag instead of parsing the whole document
+
 ## 3.0.2
 
 - The toolbar button and the settings entry now show Excalidraw's own logo mark instead of the
