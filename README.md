@@ -170,6 +170,13 @@ npm run dist
 For development you can point Joplin straight at the build output: `Tools` → `Options` →
 `Plugins` → `Show advanced settings`, and add this repository's `dist/` directory.
 
+## Support
+
+If this plugin is useful to you, support the work:
+[GitHub Sponsors](https://github.com/sponsors/pmslava) for monthly or one-time sponsorship, or
+[Ko-fi](https://ko-fi.com/pmslava) for a one-off tip by PayPal or card without an account. All
+options: [pmslava.com/support](https://pmslava.com/support/).
+
 ## Credits
 
 > [!CAUTION]

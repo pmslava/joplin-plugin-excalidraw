@@ -7,6 +7,10 @@
     "type": "git",
     "url": "git+https://github.com/pmslava/joplin-plugin-excalidraw.git"
   },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/pmslava"
+  },
   "scripts": {
     "dist:webview": "vite build --config vite-webview.config.ts --emptyOutDir",
     "dist:local": "vite build --config vite-local.config.ts --emptyOutDir",
